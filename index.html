@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>CALCULATOR</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Bitter|Chakra+Petch|Gugi" rel="stylesheet">
+    <!-- my css -->
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+
+</head>
+<body>
+        <!-- bg -->
+        <div class="bg">
+        <!-- heading -->
+        <h1 class="text-center">MATHEMATICS</h1>
+
+        <!-- body for cal -->
+        <div id="calculator">
+
+            <!-- showing results-->
+            <div id="res">
+                <!-- already entered info-->
+                <div class="text-right" id="history">
+                    <h3 id="history-val"></h3>
+                </div>
+
+                <!-- current info -->
+                <div class="text-right" id="current">
+                    <h3 id="current-val"></h3>
+                </div>
+            </div>
+
+            <!-- where my buttons will go -->
+            <div id="keyboard">
+                <!-- first row-->
+                <div class="row text-center">
+                    <div class="col">
+                        <button class="btn op" id="clear">C</button>
+                    </div>
+                    <div class="col">
+                        <button class="btn op" id="backspace">CE</button>
+                    </div>
+                    <div class="col">
+                        <button class="btn op" id="%">%</button>
+                    </div>
+                    <div class="col">
+                        <button class="btn op" id="/">&#247</button>
+                    </div>   
+                </div>
+                <!-- second row -->
+                <div class="row text-center">
+                    <div class="col">
+                        <button class="btn num" id="7">7</button>
+                    </div>
+                    <div class="col">
+                        <button class="btn num" id="8">8</button>
+                    </div>
+                    <div class="col">
+                        <button class="btn num" id="9">9</button>
+                    </div>
+                    <div class="col">
+                        <button class="btn op" id="*">&times</button>
+                    </div>
+                </div>
+                <!-- third row -->
+                <div class="row text-center">
+                    <div class="col">
+                        <button class="btn num" id="4">4</button>
+                    </div>
+                    <div class="col">
+                        <button class="btn num" id="5">5</button>
+                    </div>
+                    <div class="col">
+                        <button class="btn num" id="6">6</button>
+                    </div>
+                    <div class="col">
+                        <button class="btn op" id="-">-</button>
+                    </div>
+                </div>
+                <!-- fourth row -->
+                <div class="row text-center">
+                    <div class="col">
+                        <button class="btn num" id="1">1</button>
+                    </div>
+                    <div class="col">
+                        <button class="btn num" id="2">2</button>
+                    </div>
+                    <div class="col">
+                        <button class="btn num" id="3">3</button>
+                    </div>
+                    <div class="col">
+                        <button class="btn op" id="+">+</button>
+                    </div>
+                </div>
+                <!-- fifth row -->
+                <div class="row text-center">
+                    <div class="col"></div>
+                    <div class="col">
+                        <button class="btn num" id="0">0</button>
+                    </div>
+                    <div class="col"></div>
+                    <div class="col">
+                        <button class="btn op" id="solve">=</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+<!-- jquery -->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>    
+<!-- js -->
+<script type="text/javascript" src="calculator.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,71 @@
+body{
+    font-family: 'Gugi', cursive;
+    min-height: 100%;
+}
+h1{
+    font-size: 120px;
+    color: #f09996;
+}
+.bg{
+    /* position: relative; */
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(
+        rgba(20,20,20, .3), 
+        rgba(20,20,20, .3)),
+        url("./mathematical.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* display: flex; */
+}
+#calculator{
+    clear: both;
+    width: 350px;
+    height: 550px;
+    background-color: #6ca0c2;
+    margin: 0 auto;
+    position: relative;
+    border: 5px solid;
+    border-color: #10f3f3;
+    border-radius: 1.25rem;
+}
+#res{
+    background-color: #f38e8a;
+    width: 300px;
+    margin: 0 auto;
+    position: relative;
+    top: 10px;
+}
+#history{
+    height: 30px;
+    color: white;
+    padding: 5%;
+}
+#current{
+    height: 60px;
+    color: yellow;
+    padding: 5%;
+    margin-bottom: 15%;
+    margin-top: 10%;
+}
+#keyboard{
+    height: 250px;
+    width: 300px;
+    margin: 0 auto;
+    position: relative;
+    top: 40px;
+}
+.btn{
+    max-width: 50px;
+    max-height: 50px;
+    margin-bottom: 35%;
+    border-radius: 50%;
+}
+.op{
+    background-color: #d8d885;
+    font-weight: bolder;
+    color: #d67d7a;
+}
+
+/* mobile first */
