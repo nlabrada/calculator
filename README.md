@@ -1,3 +1,5 @@
+## Deployed: https://nlabrada.github.io/calculator/
+
 ## Description:
 A basic calculator made with HTML, JS, CSS, and jQuery!
 
